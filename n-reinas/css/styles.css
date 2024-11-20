@@ -1,0 +1,45 @@
+/* css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.controls, .navigation {
+    margin: 20px 0;
+}
+
+#chessboard {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.queen {
+    background-image: url('../images/queen.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+    .cell {
+        width: 30px;
+        height: 30px;
+    }
+}
